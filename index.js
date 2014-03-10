@@ -9,13 +9,8 @@ function plugin() {
         var params = message.split(' ');
         var command = params[0].replace('!', '');
         if (command === 'base64') {
-          var str = message.substring(15);
-
-          if (!str.length) {
-            return;
-          }
-
           var destination = to.charAt(0) === '#' ? to : from;
+          var str = message.substring(15);
           var direction = params[1];
 
           var b;
@@ -27,7 +22,7 @@ function plugin() {
               b = new Buffer(str, 'base64').toString('utf8');
               break;
             default:
-              irc.send(destination, 'Huh? Try !base64 encode|decode <query>');
+              irc.send(destination, 'Huh? Try `!base64 encode|decode <query>`');
           }
 
           if (b) {
