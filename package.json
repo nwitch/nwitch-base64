@@ -1,0 +1,17 @@
+{
+  "name": "nwitch-base64",
+  "version": "0.0.0",
+  "description": "nwitch plugin for base64 encoding and decoding",
+  "keywords": [
+    "nwitch",
+    "nwitch-plugin"
+  ],
+  "repository": "nwitch/nwitch-base64",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ]
+}
