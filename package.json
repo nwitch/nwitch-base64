@@ -1,6 +1,6 @@
 {
   "name": "nwitch-base64",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "nwitch plugin for base64 encoding and decoding",
   "keywords": [
     "nwitch",
