@@ -13,5 +13,8 @@
   "files": [
     "index.js",
     "LICENSE.txt"
-  ]
+  ],
+  "dependencies": {
+    "behest": "^0.0.2"
+  }
 }
