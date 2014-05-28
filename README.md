@@ -1,5 +1,6 @@
 # nwitch-base64
 
+[![Build Status](https://travis-ci.org/nwitch/nwitch-base64.svg)](https://travis-ci.org/nwitch/nwitch-base64)
 [![Dependency Status](https://gemnasium.com/nwitch/nwitch-base64.svg)](https://gemnasium.com/nwitch/nwitch-base64)
 
 [nwitch][] (and [slate-irc][]) plugin for base64 encoding and decoding.
