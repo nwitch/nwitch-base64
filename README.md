@@ -1,6 +1,6 @@
 # nwitch-base64
 
-[![Dependency Status](https://gemnasium.com/nwitch/nwitch-base64.png)](https://gemnasium.com/nwitch/nwitch-base64)
+[![Dependency Status](https://gemnasium.com/nwitch/nwitch-base64.svg)](https://gemnasium.com/nwitch/nwitch-base64)
 
 nwitch plugin for base64 encoding and decoding.
 
