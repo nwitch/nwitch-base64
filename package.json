@@ -21,7 +21,7 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
-    "behest": "^0.0.2"
+    "behest": "^1.0.0"
   },
   "devDependencies": {
     "lodash.isfunction": "^2.4.1",
