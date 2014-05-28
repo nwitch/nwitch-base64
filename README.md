@@ -55,7 +55,7 @@ client.use(nwitchBase64());
 ## Installation
 
 ``` bash
-$ npm install --save nwitch-base64
+$ npm install nwitch-base64
 ```
 
 ## API
