@@ -26,7 +26,7 @@ function plugin() {
             b = new Buffer(str, 'base64').toString('utf8');
             break;
           default:
-            irc.send(destination, 'Huh? Try `!base64 encode|decode <query>`');
+            irc.send(destination, from + ': Huh? Try `!base64 encode|decode <query>`');
         }
 
         if (b) {
